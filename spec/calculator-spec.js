@@ -1,4 +1,5 @@
 import { today } from '../src/sample-class.js'
+import { currentDate } from '../src/sample-class.js'
 
 describe ("date", function () {
 
