@@ -5,6 +5,8 @@ export const today = function () {
 };
 
 export const currentDate = function () {
-  const dateInput = new Date(month, day, year);
-  return dateInput
+  const dateInput = new Date();
+  const day = dateInput.getDate();
+  const month = dateInput.getMonth();
+  const year = dateInput.getFullYear();
 };
